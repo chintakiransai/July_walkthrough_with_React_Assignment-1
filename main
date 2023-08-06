@@ -1,0 +1,50 @@
+<!-- 1.
+function Person(props)
+{
+    return (
+        <>
+        <p>Person name is {props.name} and age is {props.age}</p>
+        </>
+    )
+}
+
+<Person name="kiran" age="25"></Person>
+
+
+2.
+function Button(props)
+{
+    return (
+        <>
+        <button onClick={props.onClick}>{props.text}</button>
+        </>
+    )
+}
+
+<Button text="text here" onClick={function(){console.log("Click is working")}} />
+
+
+3.
+function Header(props){
+    return (
+        <>
+        <h1>{props.title}</h1>
+        </>
+    )
+}
+
+<Header title="test title"/>
+
+
+4.
+function List(props){
+    const listItems =props.list.map((ele)=>
+        <li>{ele}</li>)
+    return (
+        <>
+        <ul>{listItems}</ul>
+        </>
+    )
+}
+
+<List list={["Item1","Item2","Item3"]}/> -->
